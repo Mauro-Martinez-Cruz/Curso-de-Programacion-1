@@ -1,6 +1,8 @@
 # Curso de Programación 1 - ORT Facultad de Ingeniería 
 
-## Introducción Bienvenido al curso de Programación 1 en la Facultad de Ingeniería de ORT. Este curso está diseñado para introducir a los estudiantes en los conceptos básicos de la programación, utilizando diversos lenguajes y herramientas de desarrollo. A lo largo del curso, los estudiantes aprenderán las habilidades fundamentales necesarias para desarrollar aplicaciones simples y resolver problemas de programación.
+### Introducción Bienvenido al curso de Programación 1 en la Facultad de Ingeniería de ORT.
+Este curso está diseñado para introducir a los estudiantes en los conceptos básicos de la programación, utilizando diversos lenguajes y herramientas de desarrollo.
+A lo largo del curso, los estudiantes aprenderán las habilidades fundamentales necesarias para desarrollar aplicaciones simples y resolver problemas de programación.
 
 ## Objetivos 
 - **Desarrollar el pensamiento computacional (PC):** Abstracción, resolución de problemas, reconocimiento de patrones y algoritmia. 
@@ -9,7 +11,7 @@
 ### Implica 
 - **Conocer y aplicar las estrategias del PC.** 
 - **Conocer, entender y aplicar los conceptos básicos de programación:** Variables, expresiones, estructuras de control, estructuras de datos como listas y arrays, funciones y procedimientos. 
-- **Poder diseñar e implementar soluciones de problemas no triviales en un lenguaje de programación.
+- **Poder diseñar e implementar soluciones de problemas no triviales en un lenguaje de programación.**
 
 ## Logros esperados 
 - **Desarrollar soluciones algorítmicas a problemas** y representarlas como programas de computador. 
@@ -43,7 +45,7 @@
 
 ## Libros de referencia 
 - J. D. Gauchat, *El gran libro de HTML 5, CSS 3 y Java Script*, España: Marcombo, 2017. 
-- M. Haverbeke, *Eloquent JavaScript* [Online], 2018. Disponible en [este link](https://eloquentjavascript.net/). Versión para celulares [link](https://eloquentjavascript.net/mobile/). 
+- M. Haverbeke, *Eloquent JavaScript* [Online], 2018. Disponible en [este link](https://eloquentjavascript.net/). 
 - J. Thompsons, *JavaScript programming for beginners guide*, Lexington: CreateSpace Independent Publishing Platform, 2017. 
 - V. Antani, S. Stoyan, *Object-Oriented Java Script 3rd edition*, USA: Packt, 2017. 
 - P. Ackermann, *JavaScript: The Comprehensive Guide*. Rheinwerk Computing, 2022.
