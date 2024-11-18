@@ -1,8 +1,7 @@
 # Curso de Programación 1 - ORT Facultad de Ingeniería 
 
-### Introducción Bienvenido al curso de Programación 1 en la Facultad de Ingeniería de ORT.
-Este curso está diseñado para introducir a los estudiantes en los conceptos básicos de la programación, utilizando diversos lenguajes y herramientas de desarrollo.
-A lo largo del curso, los estudiantes aprenderán las habilidades fundamentales necesarias para desarrollar aplicaciones simples y resolver problemas de programación.
+### Introducción
+Bienvenido al curso de Programación 1 en la Facultad de Ingeniería de ORT.Este curso está diseñado para introducir a los estudiantes en los conceptos básicos de la programación, utilizando diversos lenguajes y herramientas de desarrollo. A lo largo del curso, los estudiantes aprenderán las habilidades fundamentales necesarias para desarrollar aplicaciones simples y resolver problemas de programación.
 
 ## Objetivos 
 - **Desarrollar el pensamiento computacional (PC):** Abstracción, resolución de problemas, reconocimiento de patrones y algoritmia. 
