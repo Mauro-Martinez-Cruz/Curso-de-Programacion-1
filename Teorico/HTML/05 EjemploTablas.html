@@ -1,0 +1,65 @@
+
+<!doctype html>
+<!-- EJEMPLO Tablas -->
+
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo Tablas</title>
+</head>
+<body>
+<!-- Ejemplos de Tablas -->
+<table>
+  <thead>
+    <tr>
+      <th>Mes</th>
+      <th>Gastos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Enero</td>
+      <td>$1000</td>
+    </tr>
+    <tr>
+      <td>Febrero</td>
+      <td>$2000</td>
+    </tr>
+  </tbody>
+  <tfoot> <!-- la ubicacion del tfoot varia, en HTML5 puede ir luego del tbody -->
+    <tr>
+      <td>Total</td>
+      <td>$3000</td>
+    </tr>
+  </tfoot>
+  
+</table>
+
+<table border="1" >
+	<caption>Este es el título o caption de la tabla</caption>
+	<thead>
+	<tr>
+		<th>COLUMNA1</th>
+		<th>COLUMNA2</th>
+		<th>COLUMNA3</th>
+	</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>CELDA 1</td>
+			<td rowspan="2">CELDA 2 OCUPA 2 FILAS con rowspan</td>
+			<td>CELDA 3</td>
+		</tr>
+		<tr>
+			<td>CELDA 4</td>
+			<td>CELDA 6</td>
+		</tr>
+		<tr>
+			<td colspan="2">CELDA7 OCUPA 2 COLUMNAS con colspan</td>
+			<td>CELDA 8</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

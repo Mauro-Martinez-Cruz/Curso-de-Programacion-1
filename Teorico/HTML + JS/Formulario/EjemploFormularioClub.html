@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="js/club.js"></script>
+		<title>Ejemplo Formulario Club</title>
+		
+
+	</head>
+	<body>
+		<h1>Sistema</h1>
+		<h2>Se solicita ingresar los datos</h2>
+		<h3>Favor completar</h3>
+		<p id="idParrafo"> La información será tratada en forma confidencial</p>
+		
+		<!-- Ejemplo de Form -->
+		<form id="idFormulario" action="#" method="get">
+			<fieldset>
+				<legend>Datos</legend>
+				<label for="idNombre">Nombre (hasta 20 caracteres) </label>
+				<!-- name es el nombre con el que va para el servidor. El servidor necesita saber que dato es cada cosa -->
+				<!-- label define una etiqueta para un input, util por accesibilidad -->
+				<input type="text" name="nombre" id="idNombre" maxlength="20" placeholder="Ingrese nombre" required >
+				
+				<label for="idMail">Mail </label>
+				<input type="email" name="email" id="idMail"  placeholder="su correo" required >
+				<br>
+				
+				<input type="radio" id="idGeneroM" name="genero" checked>masculino
+				<input type="radio" id="idGeneroF" name="genero" >femenino
+				<br>
+				
+				<label for="idHijos"> Hijos (0 a 10)</label>
+				<input type="number" name="hijos" id="idHijos" min="0" max="10">
+				
+				<br>
+				<label for="idFormaContacto">Elija forma de contacto preferida(combo)</label>
+				<select name="formaContacto" id="idFormaContacto" >
+					<option value="Entrevista" >Entrevista</option>
+					<option value="Correo" >Mail</option>
+					<option value="Telefono" >Telefono</option>
+					<option value="otra" selected >Otra</option>
+				</select>
+			</fieldset>
+			</br>
+			
+			<input type="button" id="idBotonEnviar" value="enviar"> 
+			<input type="reset"  id="idBotonReset" value="reiniciar">
+		</form>
+		
+		
+		<h3> Socios ingresados </h3>
+		<select id="idSocios">
+		</select>
+		<table id="idTabla">
+		</table>
+	
+	
+	</body>
+	</html>	

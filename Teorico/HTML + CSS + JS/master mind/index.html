@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/funciones.js"></script>
+    <title>Mastermind</title>
+</head>
+<body>
+    <h1>Master Mind!</h1>
+    <form id="idFormulario">
+        <label for="idNumero">Número máximo a generar (de 4 a 9): </label>
+        <input type="number" id="idNumero" min="4" max="9" name="numero" value="4">
+        <input type="button" id="idBotonGenerar" value="Generar">
+        <input type="button" id="idBotonAyuda" value="Ayuda">
+        <br>
+        <label for="idApuesta">Apuesta: </label>
+        <input type="number" id="idApuesta" name="adivinar" min="1111" max="9999">
+        <input type="button" id="idBotonAdivinar" value="Adivinar">
+        <br>
+    </form>
+    <details>
+        <summary>Instrucciones</summary>
+        <p>Para jugar, presionar el boton de generar y apostar!</p>
+    </details>
+    <ul id="idRespuestas"></ul>
+</body>
+</html>

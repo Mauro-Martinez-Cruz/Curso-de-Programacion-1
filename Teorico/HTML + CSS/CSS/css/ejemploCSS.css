@@ -1,0 +1,27 @@
+p{
+	font-size: 18px;
+	background-color: gray;
+}
+
+#parrafoEspecial{
+	font-size: 9px;
+}
+
+.rojo{
+	color: red;
+}
+
+.azul{
+	color: #0000ff;
+}
+
+h1, h2, h3, h4{
+	color: green;
+	font-size: 20px;
+}
+
+p:hover{
+	background-color: yellow;
+}
+
+*{font-family:Arial}

@@ -1,0 +1,33 @@
+*{
+    font-size: 32px;
+}
+
+h1{
+    background: #cccccc;
+    border-bottom: 5px solid blue;
+    font-size: 40px;
+    width: 40%;
+    color: blue;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-radius: 30px 30px 30px 30px;
+}
+
+input{
+    color: darkblue;
+    margin: 20px;
+    width: 150px;
+}
+
+li{
+    background-color: #ccc;
+    color: darkblue;
+    width: 90%;
+    border: 2px dashed #b5f2f2;
+    list-style-type: none;
+}
+
+body{
+    background-color: gray;
+    text-align: center;
+}

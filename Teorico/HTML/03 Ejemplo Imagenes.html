@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- EJEMPLO: Imagenes-->
+
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo  Imágenes</title>
+</head>
+<body>
+<!-- Ejemplos de Imagenes -->
+
+<!-- imagen esta en carpeta imagenes-->
+<img src="imagenes/go.jpg" width="95" height="60" alt="Logo de LetsGo" >
+
+<p> Investigar en W3School el tag picture (nuevo en HTML5)</p>
+<p> Contiene uno o mas source y un img - RESPONSIVE </p>
+<picture>
+  <source media="(min-width: 650px)" srcset="imagenes/img_pink_flowers.jpg">
+  <source media="(min-width: 465px)" srcset="imagenes/img_white_flower.jpg">
+  <img src="imagenes/img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+</body>
+</html>

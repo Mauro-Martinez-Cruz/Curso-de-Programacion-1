@@ -1,0 +1,46 @@
+﻿/* fonts tomados de https://fonts.google.com*/
+* {
+font-family: 'Asap', sans-serif;}
+
+h1 {  
+	background: #cccccc; /*color fondo*/
+	border-bottom: 5px solid #b5f2f2; /*grosor, estilo y color borde inferior*/
+	font-size: 30px ;  /*fuente*/
+	width: 50%;
+	color:blue;  /*color de la fuente*/
+	letter-spacing: 2px; /*separación entre las letras*/
+	text-transform: uppercase; /*texto se transforma en mayúsculas. Si no queremos mayúsculas, borrar esta línea*/
+	padding: 6px;  /*tamaño-ancho del fondo*/
+	border-radius: 30px 0px 30px 0px; /*ángulos de las 4 esquinas del borde/fondo*/
+}
+p{border:  2px dashed #b5f2f2; padding: 6px;
+	font-size: 20px;
+	color: darkblue;
+	text-align: left; 
+}
+
+li{
+	background-color: #ccc;
+	color: darkblue;
+	padding: 15px;
+	width: 50%;
+	cursor:crosshair;
+	text-align: left;
+	list-style-type: none;
+	background: url("../img/bullet.jpg")  center  no-repeat
+}
+
+
+body {
+	background-image: url("../img/fotoAna.gif");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:right; 
+	margin:0;
+	padding:20px 50px;
+	font:small Verdana,Sans-serif;
+	line-height:1.7em;
+	color:#222;
+	text-align:center;
+	
+}

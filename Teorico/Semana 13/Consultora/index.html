@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="idEstilo" rel="stylesheet" href="css/consultora10.css">
+    <script src="js/clases.js"></script>
+    <script src="js/funciones.js"></script>
+    <title>Consultora</title>
+</head>
+<body>
+    <header>
+        <h1>Consultora</h1>
+        <input type="button" id="idCambiarEstilo" value="Cambiar Fondo!">
+        <br>
+    </header>
+
+    <section>
+        <h2>Sistema para gestión de consultora</h2>	
+        <article class="form-style-3">
+            <h2>Manejo de empresas</h2>
+            <fieldset>
+                <legend>Empresa</legend>
+                <form id="idFormularioEmpresa">
+                    <label for="idTxtNombreE">Nombre</label>
+                    <input type="text" id="idTxtNombreE" required>
+                    <br>
+                    <label for="idTxtDireccion">Direccion</label>
+                    <input type="text" id="idTxtDireccion">
+                    <br>
+                    <label for="idTxtRUT">R.U.T</label>
+                    <input type="text" id="idTxtRUT" value="" required>
+                    <br>
+                    <input type="button" id="idBotonE" value="Agregar">
+                </form>
+            </fieldset>
+        </article>
+        <article class="form-style-3">
+            <h2>Manejo de Funciones</h2>
+            <fieldset>
+                <legend>Función</legend>
+                <form id="idFormularioFunciones">
+                    <label for="idTxtNombreF">Nombre</label>
+                    <input type="text" id="idTxtNombreF" required>
+                    <br>
+                    <label for="idTxtDescripcion">Descripción</label>
+                    <input type="text" id="idTxtDescripcion" required>
+                    <br>
+                    <label for="idTxtTipo">Tipo</label>
+                    <input type="number" id="idTxtTipo" value="1" min="1" max="5" required>
+                    <br>
+                    <input type="button" id="idBotonF" value="Agregar">
+                </form>
+            </fieldset>
+        </article>
+        <article class="form-style-3">
+            <h2>Manejo de Puestos</h2>
+            <fieldset>
+                <legend>Puesto</legend>
+                <form id="idFormularioPuestos">
+                    <label for="idComboEmpresas">Empresas</label>
+                    <select id="idComboEmpresas"></select>
+                    <br>
+                    <label for="idComboFuncionesPuesto">Funciones</label>
+                    <select id="idComboFuncionesPuesto"></select>
+                    <br>
+                    <label for="idTxtDetalle">Detalle</label>
+                    <input type="text" id="idTxtDetalle" required>
+                    <br>
+                    <label for="idTxtSueldo">Sueldo</label>
+                    <input type="number" id="idTxtSueldo" value="" min="0" required>
+                    <br>
+                    <input type="button" id="idBotonP" value="Agregar">
+                </form>
+            </fieldset>
+        </article>
+    </section>
+    <aside class="form-style-3">
+        <h4>Consultas varias</h4>
+        <fieldset>
+            <legend>Consultas</legend>
+            <h4>Empresas ingresadas</h4>
+            <ul id="idListaE"></ul>
+            <br>
+            <h4>Funciones ingresadas</h4>
+            <ul id="idListaF"></ul>
+            <br>
+            <label for="idComboFuncionesConsulta">Funciones</label>
+            <select id="idComboFuncionesConsulta"></select>
+            <input type="button" id="idBotonConsultarPromedio" value="Consultar Sueldo Promedio">
+            <p id="idSueldoPromedio">---</p>
+            <input type="button" id="idBotonTipoMayor" value="Tipo de función más puestos">
+            <p id="idTipoMasSolicitado">---</p>
+            <input type="button" id="idBotonListadoPuestos" value="Listado de puestos">
+            <table id="idTablaPuestos"></table>
+        </fieldset>
+    </aside>
+</body>
+</html>

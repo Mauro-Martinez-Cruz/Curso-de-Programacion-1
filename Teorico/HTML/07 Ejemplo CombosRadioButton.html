@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang ="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ejemplo de campos, combos y radio button</title>
+	</head>
+	<body>
+		<h1>Gestión de entregas</h1>
+		
+		<label for="idNombre">Ingrese nombre</label>
+		<input type="text" id="idNombre" name="nombre">
+		
+		<label for="idCosto">Ingrese costo</label>
+		<input type="number" id="idCosto" name="costo">
+		
+		<label for="idZona">Zona de atención</label>
+		<select name="zona" id="idZona">
+			<option value="Norte" selected>Norte</option>
+			<option value="Sur">Sur</option>
+			<option value="Este">Este</option>
+			<option value="Oeste">Oeste</option>
+		</select>
+		
+		<p>Horario para la entrega:</p>
+		
+		<label for="idPreferencia">Preferencia</label>
+		<select name="horario" id="idPreferencia">
+			<option value="matutino" selected>De mañana</option>
+			<option value="tarde">De tarde</option>
+			<option value="nocturno">De noche</option>
+		</select>
+		
+		<h3>Datos de confirmación</h3>
+		
+		<label for="idConfirmacion">Requiere confirmación</label>
+		<input type="checkbox" name="confirmación" id="idConfirmacion">
+		
+		<h3>Transporte</h3>
+		<input type="radio" name="transporte" value="1" id="idRadioTaxi" checked>
+		<label for="idRadioTaxi">Taxi</label>
+		</br>
+		<input type="radio" name="transporte" value="2" id="idRadioCamion" >
+		<label for="idRadioCamion">Camion</label>
+		</br>
+		<input type="radio" name="transporte" value="3" id="idRadioBus">
+		<label for="idRadioBus">Bus</label>
+		</br>
+		<input type="radio" name="transporte" value="4" id="idRadioOtro">
+		<label for="idRadioOtro">Otro</label>
+	</body>
+</html>
